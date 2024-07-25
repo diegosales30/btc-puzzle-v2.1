@@ -1,0 +1,20 @@
+{
+  "name": "btc-puzzle",
+  "author": "diegoDev",
+  "license": "MIT",
+  "version": "2.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "coinkey": "^3.0.0",
+    "bitcoinjs-lib": "^6.1.1",
+    "crypto": "^1.0.1",
+    "ecpair": "^2.0.0",
+    "elliptic": "^6.5.5"
+  }
+}
