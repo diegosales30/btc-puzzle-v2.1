@@ -28,7 +28,7 @@ const art = `\x1b[38;2;250;128;114m
 ║\x1b[0m\x1b[36m                                                        \x1b[0m\x1b[38;2;250;128;114m ║
 ╚═══\x1b[38m═════════════ by:DiegoDev - RANDOM V2.1 ═══════════\x1b[0m\x1b[38;2;250;128;114m═══╝\x1b[0m`;
 console.log(art);
-console.log(`           ${chalk.bgRed('IG: @felip.codes | github/diegosales30')}`);
+console.log(`           ${chalk.bgRed('IG: @diego.cod3r | github/diegosales30')}`);
 
 rl.question(`${chalk.yellowBright('SELECIONE UM PUZZLE ENTRE')} ${chalk.cyan(1)} - ${chalk.cyan(160)}: `, (answer) => {
     if (parseInt(answer) < 1 || parseInt(answer) > 160) {
